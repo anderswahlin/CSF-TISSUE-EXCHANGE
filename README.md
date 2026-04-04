@@ -10,17 +10,17 @@ Accompanies:
 
 ## Overview
 
+For two complementary paradigms:
+
+- Intrathecal (IT): CSF → tissue
+- Intravenous (IV): tissue → CSF
+- 
 We implement a compartmental model to estimate:
 
 - CSF → ISF inflow (IT-experiments) or ISF → CSF outflow (IV-experiments)
 - ISF volume fraction (both experiemnts)
 
 from time-resolved MRI-derived concentration curves.
-
-Two complementary paradigms:
-
-- Intrathecal (IT): CSF → tissue
-- Intravenous (IV): tissue → CSF
 
 ---
 
