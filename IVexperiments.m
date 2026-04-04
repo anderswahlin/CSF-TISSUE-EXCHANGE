@@ -25,11 +25,9 @@ for pat = 1:55; %loop cases
     points = dataset2(pat).points;
     sasCsfVolume = dataset2(pat).vol
 
-    %options = optimset('Display','iter', 'TolCon', 1e-12, 'TolX', 1e-12, 'TolFun', 1e-12,'DiffMinChange', 1e-6,'MaxFunEvals',1e100);
-
     k0 = zeros(1,2);
     fun1=@(k)IVmodel(k,it,concCSF,concTissue,dt,points); %fit the model
-    [params,exitflag,output] = fmincon(fun1,k0,[],[],[],[],[-1 .15],[1 .35],[]);
+    [params,exitflag,output] = fmincon(fun1,k0,[],[],[],[],[-1 .15],[1 .35]);
     q(pat) = params(1)*sasCsfVolume
     ve(pat) = params(2);
     
