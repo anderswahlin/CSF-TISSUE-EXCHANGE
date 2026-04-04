@@ -82,9 +82,9 @@ Exchange model:
 
 Derived:
 - q = k1 × CSF volume
-- ve = k2 (model-specific estimate)
+- ve = k2
 
-Note: The IV formulation uses a different parameterization than the IT model.
+Note: The IV formulation is overall similar but uses a different parameterization than the IT model.
 
 ---
 
