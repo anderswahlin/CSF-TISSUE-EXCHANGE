@@ -4,7 +4,7 @@
 This repository contains code and data for estimating cerebrospinal fluid (CSF) to interstitial fluid (ISF) exchange in humans using quantitative MRI following intrathecal (IT) and intravenous (IV) contrast administration.
 
 Accompanies:
-"Quantitative assessment of flow between cerebrospinal and interstitial fluid compartments in humans" , Wåhlin et al. (2026), *PNAS*
+"Quantitative assessment of flow between cerebrospinal and interstitial fluid compartments in humans", by Wåhlin et al. *PNAS* 2026
 
 ---
 
@@ -116,7 +116,7 @@ Note: The IV formulation is overall similar but uses a different parameterizatio
 
 ## Citation
 
-If you use the code, please cite the paper "Quantitative assessment of flow between cerebrospinal and interstitial fluid compartments in humans" by Wåhlin et al. *PNAS*.
+If you use the code, please cite the paper "Quantitative assessment of flow between cerebrospinal and interstitial fluid compartments in humans" by Wåhlin et al. *PNAS* 2026
 
 ---
 
