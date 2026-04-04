@@ -14,10 +14,11 @@ For two complementary paradigms:
 
 - Intrathecal (IT): CSF → tissue
 - Intravenous (IV): tissue → CSF
-- 
-We implement a compartmental model to estimate:
+  
+we implement a compartmental model to estimate:
 
-- CSF → ISF inflow (IT-experiments) or ISF → CSF outflow (IV-experiments)
+- CSF → ISF inflow (IT-experiments)
+- ISF → CSF outflow (IV-experiments)
 - ISF volume fraction (both experiemnts)
 
 from time-resolved MRI-derived concentration curves.
@@ -81,7 +82,7 @@ Exchange model:
   - k2
 
 Derived:
-- q = k1 × CSF volume
+- q = k1 × SAS CSF volume
 - ve = k2
 
 Note: The IV formulation is overall similar but uses a different parameterization than the IT model.
@@ -115,7 +116,7 @@ Note: The IV formulation is overall similar but uses a different parameterizatio
 
 ## Citation
 
-if you use the code, please cite the paper "Quantitative assessment of flow between cerebrospinal and interstitial fluid compartments in humans" by Wåhlin et al. *PNAS*.
+If you use the code, please cite the paper "Quantitative assessment of flow between cerebrospinal and interstitial fluid compartments in humans" by Wåhlin et al. *PNAS*.
 
 ---
 
