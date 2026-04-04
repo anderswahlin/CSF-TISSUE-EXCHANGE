@@ -38,7 +38,7 @@ for pat = 1:55; %loop cases
     concCSFmeas = [0 concCSF(1,points)];
     timeMeas = [0 it(points)]
     meanConcISF(pat,:) = mean(concTissue(1,:)*(1/ve(pat)));
-        meanConcISF(pat,:) = mean(concTissue(1,:));
+    
 
 
 end
