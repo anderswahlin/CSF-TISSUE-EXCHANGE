@@ -12,6 +12,7 @@
 %  Implementation below is all intrathecal Gd flow calculations from the paper.
 
 %% Main section
+clear all
 load dataset1.mat
 
 for pat = 1:14; %loop cases
