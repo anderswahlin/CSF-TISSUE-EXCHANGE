@@ -12,7 +12,7 @@
 %  Implementation below describes intravenous Gd flow calculations from the paper.
 
 %% Main section
-
+clear all
 load dataset2.mat 
 
 for pat = 1:55; %loop cases
